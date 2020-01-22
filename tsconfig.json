@@ -1,0 +1,25 @@
+{
+    "compilerOptions": { 
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "declaration": false,
+        "noImplicitAny": false,
+        "jsx": "react",
+        "sourceMap": true,
+        "noLib": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "esModuleInterop": true,
+        "baseUrl": "src",
+        "paths": {
+            "api": ["api"],
+            "assets": ["assets"],
+            "img": ["img"],
+            "imgGalery": ["imgGalery"],
+            "layout": ["layout"],
+            "scss": ["scss"]
+        }
+    },
+    "compileOnSave": false,
+    "exclude": ["node_modules"]
+  }
